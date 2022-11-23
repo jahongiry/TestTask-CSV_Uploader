@@ -1,0 +1,39 @@
+﻿@model IEnumerable<TestTask.Models.Employee>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<form asp-controller="Employees" asp-action="Index" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" />
+    <hr />
+    <button type="submit">Upload</button>
+</form>
+<br/>
+<br />
+<div class="container">
+    <div class="row">
+        <div class="panel-body">
+            <table class="table table-bordered" id="dataTableData">
+                <thead>
+                    <tr class="text-center">
+                        <th>Payroll_Num</th>
+                        <th>ForeNames</th>
+                        <th>Surname</th>
+                        <th>Date_of_birth</th>
+                        <th>Telephone</th>
+                        <th>Mobile</th>
+                        <th>Address</th>
+                        <th>Address_2</th>
+                        <th>Postcode</th>
+                        <th>Email</th>
+                        <th>Start_Date</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script src="~/js/datatable_file.js"></script>
+}
