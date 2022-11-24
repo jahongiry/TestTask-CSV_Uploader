@@ -12,6 +12,7 @@
 - Libraries: `Grid Table`, `EntityFramework`, `SQL Server`
 - Technologies: Git, Github, Microsorft SQL Server
 
+https://www.loom.com/share/683ce4103f534747ad24be6daae993b3
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
